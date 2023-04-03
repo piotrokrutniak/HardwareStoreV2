@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardwareStoreV2.Domain", "Domain\HardwareStoreV2.Domain.csproj", "{653A111F-2E48-46C7-AA74-259C4FE70328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardwareStoreV2.Catalog.Service", "HardwareStoreV2.Catalog.Service\HardwareStoreV2.Catalog.Service.csproj", "{0DBC0912-2755-468C-B889-347EDF40BECA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{653A111F-2E48-46C7-AA74-259C4FE70328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653A111F-2E48-46C7-AA74-259C4FE70328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653A111F-2E48-46C7-AA74-259C4FE70328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653A111F-2E48-46C7-AA74-259C4FE70328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBC0912-2755-468C-B889-347EDF40BECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBC0912-2755-468C-B889-347EDF40BECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBC0912-2755-468C-B889-347EDF40BECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBC0912-2755-468C-B889-347EDF40BECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9568735E-FF11-4A0B-B21F-39E2478CBD8B}
+	EndGlobalSection
+EndGlobal
