@@ -39,7 +39,7 @@ namespace HardwareStoreV2.Catalog.Service.Controllers
         [HttpPost]
         public ActionResult<ItemDto> Post(CreateItemDto createItemDto)
         {
-            var item = new ItemDto(Guid.NewGuid(), createItemDto.Name, createItemDto.Description, createItemDto.Price, DateTimeOffset.Now);
+            var item = new ItemDto(Guid.NewGuid(), createItemDto.Name, createItemDto.Description, createItemDto.Price, DateTime.Now);
             items.Add(item);
             return CreatedAtAction(nameof(GetById), new { Id = item.Id }, item);
         }
