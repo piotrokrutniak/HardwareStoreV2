@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace HardwareStoreV2.Domain.Models.Identity
 {
-public class AppUser
+public class ApplicationUser
     {
-        public AppUser()
+        public ApplicationUser()
         {
             Claims = new List<ApplicationUserClaim>();
             Roles = new List<ApplicationUserRole>();

@@ -12,6 +12,7 @@ namespace HardwareStoreV2.Domain.Models.Orders
     {
         public int Id { get; set; }
         public OrderStatus OrderStatus { get; set; }
+        public string UserEmail { get; set; }
         public List<OrderItem> OrderItems { get; set; }
         public DateTime CreatedDate { get; set; }
     }

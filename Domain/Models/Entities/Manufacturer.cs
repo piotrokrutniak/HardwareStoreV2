@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HardwareStoreV2.Domain.Models.Entities
 {
-    public class Manufactuer : IEntityBase
+    public class Manufacturer : IEntityBase
     {
         public int Id { get; set; }
         public string Name { get; set; }

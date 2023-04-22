@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardwareStoreV2.Domain", "Domain\HardwareStoreV2.Domain.csproj", "{653A111F-2E48-46C7-AA74-259C4FE70328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HardwareStoreV2.Domain", "Domain\HardwareStoreV2.Domain.csproj", "{653A111F-2E48-46C7-AA74-259C4FE70328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardwareStoreV2.Catalog.Service", "HardwareStoreV2.Catalog.Service\HardwareStoreV2.Catalog.Service.csproj", "{0DBC0912-2755-468C-B889-347EDF40BECA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HardwareStoreV2.Catalog.Service", "HardwareStoreV2.Catalog.Service\HardwareStoreV2.Catalog.Service.csproj", "{0DBC0912-2755-468C-B889-347EDF40BECA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{90996951-C1D6-49CA-AFC8-F5A92B28B451}"
 EndProject
@@ -15,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F4CFB4CD-167
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{ABE74160-35FA-42B6-9931-C8CD0A668C72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardwareStoreV2.Infrastructure", "HardwareStoreV2.Infrastructure\HardwareStoreV2.Infrastructure.csproj", "{0E654C3D-FA3D-4B8E-95D0-A5CA2C863582}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HardwareStoreV2.Infrastructure", "HardwareStoreV2.Infrastructure\HardwareStoreV2.Infrastructure.csproj", "{0E654C3D-FA3D-4B8E-95D0-A5CA2C863582}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2ABD2E14-0EE5-48E0-A0CB-5C31D2F93309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardwareStoreV2.Application", "HardwareStoreV2.Application\HardwareStoreV2.Application.csproj", "{BBEBCE6F-72EE-4D99-B97D-C684D1AB665A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HardwareStoreV2.Application", "HardwareStoreV2.Application\HardwareStoreV2.Application.csproj", "{BBEBCE6F-72EE-4D99-B97D-C684D1AB665A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,7 +55,7 @@ Global
 		{ABE74160-35FA-42B6-9931-C8CD0A668C72} = {90996951-C1D6-49CA-AFC8-F5A92B28B451}
 		{0E654C3D-FA3D-4B8E-95D0-A5CA2C863582} = {ABE74160-35FA-42B6-9931-C8CD0A668C72}
 		{2ABD2E14-0EE5-48E0-A0CB-5C31D2F93309} = {90996951-C1D6-49CA-AFC8-F5A92B28B451}
-		{BBEBCE6F-72EE-4D99-B97D-C684D1AB665A} = {8833A994-057D-4BB9-8810-FBDD9BF38C77}
+		{BBEBCE6F-72EE-4D99-B97D-C684D1AB665A} = {2ABD2E14-0EE5-48E0-A0CB-5C31D2F93309}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9568735E-FF11-4A0B-B21F-39E2478CBD8B}

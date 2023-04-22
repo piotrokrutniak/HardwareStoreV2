@@ -11,6 +11,7 @@ namespace HardwareStoreV2.Domain.Models.Products
     {
         public int Id { get; set; }
         public int DetailTypeId { get; set; }
+        public DetailType DetailType { get; set; }
         public string Description { get; set; }
         public DateTime CreatedDate { get; set; }
     }
